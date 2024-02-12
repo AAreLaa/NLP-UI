@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default function index() {
+export default function HomePage() {
   return (
     <div>index</div>
   )
