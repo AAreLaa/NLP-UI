@@ -3,16 +3,16 @@ import Link from "next/link";
 
 export default function Header() {
   return (
-    <header className="absolute w-full z-30">
+    <header className="fixed top-0 w-full z-30 backdrop-blur-3xl">
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
         <div className="flex items-center justify-between h-20">
           <div className="shrink-0 mr-4">
             {/* Logo */}
             <Link href="/" className="flex items-center justify-between" aria-label="NLP-icon">
-                <span className="text-3xl text-yellow-100 ">
+                <span className="text-3xl text-yellow-300 ml-4">
                   नेपाली  
                 </span>
-                <span className="text-cyan-100 text-xl ml-1">
+                <span className="text-green-100 text-xl ml-1">
                   Language Processing
                 </span>
             </Link>
@@ -24,7 +24,7 @@ export default function Header() {
               <li>
                 <Link
                   href="/textGenerator"
-                  className="text-lg text-green-100 hover:text-gray-200 px-4 py-3 flex items-center transition duration-150 ease-in-out"
+                  className="rounded-full text-lg text-green-100 hover:text-gray-200 px-4 py-3 flex items-center transition duration-150 ease-in-out"
                 >
                   Text Generator
                 </Link>
@@ -32,7 +32,7 @@ export default function Header() {
               <li>
                 <Link
                   href="/spellCorrector"
-                  className="text-lg text-green-100 hover:text-gray-200 px-4 py-3 flex items-center transition duration-150 ease-in-out"
+                  className="rounded-full ml-5 text-lg text-green-100 hover:text-gray-200 px-4 py-3 flex items-center transition duration-150 ease-in-out"
                 >
                   Spelling Corrector
                 </Link>

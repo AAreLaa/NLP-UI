@@ -1,7 +1,12 @@
-import React from 'react'
+import Features from "@/components/organisms/Features";
+import Description from "@/components/organisms/description";
+import React from "react";
 
 export default function HomePage() {
   return (
-    <div>index</div>
-  )
+    <>
+      <Description />
+      <Features />
+    </>
+  );
 }
