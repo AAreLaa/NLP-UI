@@ -5,6 +5,7 @@
 .form-checkbox:focus,
 .form-radio:focus {
     @apply ring-0;
+    outline: none;
 }
 
 /* Hamburger button */
