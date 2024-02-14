@@ -1,4 +1,4 @@
-import React from 'react'
+import React from "react";
 
 export default function Description() {
   return (
@@ -43,16 +43,19 @@ export default function Description() {
         {/* Description part */}
         <div className="relative flex items-center justify-center h-screen">
           {/* Section header */}
-          <div className="max-w-5xl mx-auto text-center pb-12 md:pb-16">
+          <div className="max-w-5xl mx-auto text-center pt-24 pb-12 md:pb-16">
             <h1 className="h1 mb-4" data-aos="fade-up">
-            नेपाली Language Processing
+              नेपाली Language Processing
             </h1>
             <p
               className="text-xl text-gray-400 mb-8"
               data-aos="fade-up"
               data-aos-delay="200"
             >
-              Powerful Nepali Language Processing (NLP) Web-Platform, a valuable tool for both text generation and spelling correction for Nepali Language that not only corrects spelling errors but also goes beyond traditional spellcheckers.
+              Powerful Nepali Language Processing (NLP) Web-Platform, a valuable
+              tool for both text generation and spelling correction for Nepali
+              Language that not only corrects spelling errors but also goes
+              beyond traditional spellcheckers.
             </p>
             <div className="max-w-xs mx-auto sm:max-w-none sm:flex sm:justify-center">
               <div data-aos="fade-up" data-aos-delay="400">
@@ -68,5 +71,5 @@ export default function Description() {
         </div>
       </div>
     </section>
-  )
+  );
 }
