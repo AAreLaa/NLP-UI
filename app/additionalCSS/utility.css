@@ -91,3 +91,7 @@ body::-webkit-scrollbar-track {
 body::-webkit-scrollbar-thumb {
   background-color: rgb(230, 255, 8);
 }
+
+html {
+    scroll-behavior: smooth;
+}

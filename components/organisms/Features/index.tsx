@@ -10,7 +10,7 @@ export default function Features() {
       <div className="max-w-6xl mx-auto px-4 sm:px-6 pt-10" id="learnmore">
         <div className="py-12 md:py-20">
           {/* Section header */}
-          <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20">
+          <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20" data-aos="fade-up" >
             <h2 className="h2 mb-4">
               What We Have To &quot;<span className="text-yellow-300">Offer</span>&quot;
             </h2>

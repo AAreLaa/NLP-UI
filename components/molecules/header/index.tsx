@@ -9,10 +9,10 @@ export default function Header() {
           <div className="shrink-0 mr-4">
             {/* Logo */}
             <Link href="/" className="flex items-center justify-between" aria-label="NLP-icon">
-                <span className="text-3xl text-yellow-300 ml-4">
+                <span className="text-2xl text-yellow-300 ml-4">
                   नेपाली  
                 </span>
-                <span className="text-green-100 text-xl ml-1">
+                <span className="text-green-100 text-lg ml-1">
                   Language Processing
                 </span>
             </Link>
@@ -24,7 +24,7 @@ export default function Header() {
               <li>
                 <Link
                   href="/textGenerator"
-                  className="rounded-full text-lg text-green-100 hover:text-gray-200 px-4 py-3 flex items-center transition duration-150 ease-in-out"
+                  className="rounded-full text-base text-green-100 hover:text-gray-200 px-4 py-3 flex items-center transition duration-150 ease-in-out"
                 >
                   Text Generator
                 </Link>
@@ -32,7 +32,7 @@ export default function Header() {
               <li>
                 <Link
                   href="/spellCorrector"
-                  className="rounded-full ml-5 text-lg text-green-100 hover:text-gray-200 px-4 py-3 flex items-center transition duration-150 ease-in-out"
+                  className="rounded-full ml-5 text-base text-green-100 hover:text-gray-200 px-4 py-3 flex items-center transition duration-150 ease-in-out"
                 >
                   Spelling Corrector
                 </Link>
