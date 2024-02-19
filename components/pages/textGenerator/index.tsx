@@ -29,7 +29,7 @@ export default function TextGeneratorPage() {
 
       {/* box section */}
       <div
-        className="relative bg-gray-900 max-w-5xl mx-2 px-10 py-10 sm:px-10 lg:mx-auto text-gray-50 rounded-3xl border-2 border-green-600"
+        className="relative bg-gray-900 mb-20 max-w-5xl mx-2 px-10 py-10 sm:px-10 lg:mx-auto text-gray-50 rounded-3xl border-2 border-green-600"
         data-aos="fade-up"
         data-aos-delay="250"
       >
