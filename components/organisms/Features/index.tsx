@@ -1,7 +1,9 @@
 import Image from "next/image";
 import React from "react";
-import TextIcon from "@/public/images/text.svg";
-import SpellIcon from "@/public/images/spell.svg";
+import TextIcon from "@/public/images/featureIcons/text.svg";
+import SpellIcon from "@/public/images/featureIcons/spell.svg";
+import GenerateIcon from "@/public/images/featureIcons/generate.svg";
+import ManualIcon from "@/public/images/featureIcons/manual.svg"
 import FeatureCard from "@/components/molecules/featureCard";
 
 export default function Features() {
@@ -10,9 +12,13 @@ export default function Features() {
       <div className="max-w-6xl mx-auto px-4 sm:px-6 pt-10" id="learnmore">
         <div className="py-12 md:py-20">
           {/* Section header */}
-          <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20" data-aos="fade-up" >
+          <div
+            className="max-w-3xl mx-auto text-center pb-12 md:pb-20"
+            data-aos="fade-up"
+          >
             <h2 className="h2 mb-4">
-              What We Have To &quot;<span className="text-yellow-300">Offer</span>&quot;
+              What We Have To &quot;
+              <span className="text-yellow-300">Offer</span>&quot;
             </h2>
             <p className="text-xl text-gray-400">
               Our mission is to fulfill everyone&apos;s{" "}
@@ -34,31 +40,31 @@ export default function Features() {
               title="Nepali Typing Support"
               description="We provide fast and accurate Nepali language typing support. After you type a word in English and hit a space bar key, the word will be transliterated into Nepali."
             >
-              <Image src={TextIcon} width={34} height={34} alt="image"></Image>
+              <Image src={TextIcon} alt="image"></Image>
             </FeatureCard>
 
             {/* 2nd item */}
             <FeatureCard
               title="Text Generation"
-              description="As an AI generator, it offers a range of functions, from text generation, to completing sentences, and predicting contextually relevant content."
+              description="We offer text generation tool to seamlessly complete sentences and predict contextually relevant content, functioning much like an auto-completion tool."
             >
-              <Image src={SpellIcon} width={34} height={34} alt="image"></Image>
+              <Image src={GenerateIcon} alt="image"></Image>
             </FeatureCard>
 
             {/* 3rd item */}
             <FeatureCard
               title="Auto Spelling Correction"
-              description="We will review your writing and show you where any spelling errors might be lurking by underlining them in red correcting your spelling."
+              description="We conduct a thorough review of your writing, highlighting potential spelling errors in red and offering corrective suggestions to enhance accuracy."
             >
-              <Image src={SpellIcon} width={34} height={34} alt="image"></Image>
+              <Image src={SpellIcon} alt="image"></Image>
             </FeatureCard>
 
             {/* 4th item */}
             <FeatureCard
               title="Manual Spelling Correction"
-              description="You can click the respective words and fix them manually to correct your spelling from the provided options for more accurate and satisfactory result."
+              description="We empower users to manually correct spelling by selecting from provided options, ensuring precise and satisfactory results."
             >
-              <Image src={SpellIcon} width={34} height={34} alt="image"></Image>
+              <Image src={ManualIcon} alt="image"></Image>
             </FeatureCard>
           </div>
         </div>
