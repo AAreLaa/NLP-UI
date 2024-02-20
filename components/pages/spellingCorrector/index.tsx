@@ -97,7 +97,7 @@ export default function SpellingCorrectorPage() {
             <button
               onClick={text.trim().length === 0 ? modalState : show}
               type="button"
-              className="font-medium w-1/2 text-white text-lg bg-green-700 hover:bg-green-800 focus:outline-none active:ring-2 active:ring-green-700 rounded-full text-sm px-5 py-2.5 text-center "
+              className="font-medium w-1/2 text-white bg-green-700 hover:bg-green-800 focus:outline-none active:ring-2 active:ring-green-700 rounded-full text-sm px-5 py-2.5 text-center "
             >
               Check Spell
             </button>
@@ -126,7 +126,7 @@ export default function SpellingCorrectorPage() {
         <div className="relative mt-5 text-center hidden md:block ">
           <button
             type="button"
-            className="font-medium w-1/2 text-white text-lg bg-green-700 hover:bg-green-800 focus:outline-none active:ring-2 active:ring-green-700 rounded-full text-sm px-5 py-2.5 text-center"
+            className="font-medium w-1/2 text-white bg-green-700 hover:bg-green-800 focus:outline-none active:ring-2 active:ring-green-700 rounded-full text-sm px-5 py-2.5 text-center"
             onClick={text.trim().length === 0 ? modalState : show}
           >
             Check Spell
