@@ -12,7 +12,7 @@ export default function OurTeam() {
         <div className="py-12 md:py-20 border-t border-gray-800">
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-2">
-            <h2 className="h2 mb-4">Our Team</h2>
+            <h2 className="h2 mb-4" data-aos="fade-up">Our Team</h2>
           </div>
 
           {/* Team Members */}

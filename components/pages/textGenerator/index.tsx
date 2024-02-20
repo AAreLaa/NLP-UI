@@ -22,9 +22,8 @@ export default function TextGeneratorPage() {
     <section className="relative">
       <ToolPageDescription
         title="Text Generator"
-        subTitle="Write Effectivly and Correctly with AI Models"
-        description="Turn your ideas into engaging text that persuades your audience
-              and tells your story the right way."
+        subTitle="Write any Content in an Instant with AI Models"
+        description="Seamlessly complete the sentences from where you've left off that persuades your audience and tells your story the right way."
       />
 
       {/* box section */}
@@ -35,9 +34,7 @@ export default function TextGeneratorPage() {
       >
         <div className="absolute -inset-1 bg-gradient-to-r from-green-800 to-yellow-800 rounded-lg blur opacity-25 group-hover:opacity-100 transition duration-1000 group-hover:duration-200"></div>
         <div className="relative text-lg text-white">
-          Rewrite your existing text for multiple platforms in a single click.
-          Create high-quality, engaging copy with tone and readability on track.
-          Stick to 3-200 words for best results.
+        Instantly create engaging content with our free AI Text Generator. Think of it as a sentence, word, and message maker, turning your ideas into clear writing. Try it now.
         </div>
 
         {/* text to generate option */}

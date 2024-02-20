@@ -23,9 +23,8 @@ export default function SpellingCorrectorPage() {
       {/* page description */}
       <ToolPageDescription
         title="Spelling Corrector"
-        subTitle="Write Effectivly and Correctly with AI Models"
-        description="Turn your ideas into engaging text that persuades your audience
-              and tells your story the right way."
+        subTitle="Write Effectively and Correctly with AI Models"
+        description="Refine your text flawlessly with our spelling correction model, ensuring your message resonates perfectly with your audience."
       />
 
       {/* box section */}
@@ -36,9 +35,7 @@ export default function SpellingCorrectorPage() {
       >
         <div className="absolute -inset-1 bg-gradient-to-r from-green-800 to-yellow-800 rounded-lg blur opacity-25 group-hover:opacity-100 transition duration-1000 group-hover:duration-200"></div>
         <div className="relative text-lg text-white mb-5" id="cd">
-          Rewrite your existing text for multiple platforms in a single click.
-          Create high-quality, engaging copy with tone and readability on track.
-          Stick to 3-200 words for best results.
+        Spelling can be tricky because it&apos;s not always easy. And spelling in Nepali language can be more challenging for learners due to its unique script and phonetic structure. Using top-notch writing tools can help you feel more confident. So, try it now.
         </div>
 
         {/* options */}
