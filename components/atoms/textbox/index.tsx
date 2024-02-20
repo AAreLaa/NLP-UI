@@ -43,7 +43,7 @@ export default function TextBox(props: Readonly<TextBoxProps>) {
         id="input"
         rows={15}
         className="block form-textarea p-2.5 w-full text-sm text-white bg-transparent rounded-lg border border-green-600 focus:ring-green-500 focus:border-green-50 resize-none"
-        placeholder="Write your thoughts here..."
+        placeholder="Write your thoughts here or paste something..."
       ></textarea>
     </div>
   );
