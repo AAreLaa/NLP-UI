@@ -1,8 +1,8 @@
 import Image from 'next/image'
 
 import ToolImage01 from '@/public/images/toolsImage/textGeneration.png'
-import ToolImage02 from '@/public/images/toolsImage/spell1.png'
-import ToolImage03 from '@/public/images/toolsImage/spell2.png'
+import ToolImage02 from '@/public/images/toolsImage/spellCorrection1.png'
+import ToolImage03 from '@/public/images/toolsImage/spellCorrection2.png'
 
 export default function Tools() {
   return (
