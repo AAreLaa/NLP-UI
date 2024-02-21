@@ -3,7 +3,7 @@ import React from "react";
 import TextIcon from "@/public/images/featureIcons/text.svg";
 import SpellIcon from "@/public/images/featureIcons/spell.svg";
 import GenerateIcon from "@/public/images/featureIcons/generate.svg";
-import ManualIcon from "@/public/images/featureIcons/manual.svg"
+import ManualIcon from "@/public/images/featureIcons/manual.svg";
 import FeatureCard from "@/components/molecules/featureCard";
 
 export default function Features() {
@@ -17,7 +17,7 @@ export default function Features() {
             data-aos="fade-up"
           >
             <h2 className="h2 mb-4">
-              What We Have To &quot;
+              What We Have To &quot;{''}
               <span className="text-yellow-300">Offer</span>&quot;
             </h2>
             <p className="text-xl text-gray-400">
