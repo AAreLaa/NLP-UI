@@ -2,7 +2,7 @@
 
 <img width="960" alt="image" src="https://github.com/AAreLaa/NLP-UI/assets/86913784/48831d76-4bcf-4db2-8df1-32da494c6c9b">
 
-This project is built to provide a modern, responsive, and visually appealing user interface using the power of Next.js, the utility-first CSS framework TailwindCSS, smooth animations with AOS (Animate On Scroll), and the type-safety of TypeScript for our web application. This project features Nepali text generation tool and spelling correction tool which can be valuable tools for Nepali Language that seamlessly completes sentences from where you've left off and also not only corrects spelling errors but also goes beyond traditional spellcheckers.
+This project is built to provide a modern, responsive, and visually appealing user interface for our web application which features Nepali text generation tool and spelling correction tool which can be valuable tools for Nepali Language that seamlessly completes sentences from where you've left off and also not only corrects spelling errors but also goes beyond traditional spellcheckers.
 
 
 ## Tools Offered by Web-Platform
@@ -59,7 +59,7 @@ Open your browser and visit http://localhost:3000 to see the application running
 
 ## Screenshots
 
-### Web-View
+### Desktop-View
 
 <img alt="desktop-view-1" src="https://github.com/AAreLaa/NLP-UI/assets/86913784/dd2e9a0e-b5cd-4395-adf7-85d5f9d00e6b">|<img alt="desktop-view-2" src="https://github.com/AAreLaa/NLP-UI/assets/86913784/c83adcb2-383d-4838-9917-b403ff2ee230">
 -|-
