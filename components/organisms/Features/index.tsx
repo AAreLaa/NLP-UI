@@ -17,7 +17,7 @@ export default function Features() {
             data-aos="fade-up"
           >
             <h2 className="h2 mb-4">
-              What We Have To &quot;
+              What We Have To &quot;{''}
               <span className="text-yellow-300">Offer</span>&quot;
             </h2>
             <p className="text-xl text-gray-400">
