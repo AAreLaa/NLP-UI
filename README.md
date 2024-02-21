@@ -50,6 +50,10 @@ Start the development server:
 ```
 Open your browser and visit http://localhost:3000 to see the application running.
 
+## API Reference
+
+- [API Repo](https://github.com/NishantLuitel/NLP-web): Text Generator and Spelling Corrector enable users to generate text and correct spelling errors programmatically by sending API requests to the backend server. In order to be able to use the spelling corrector and text generator, ensure that the backend service is running and accessible before making API requests.
+
 ## Technologies Used
 
 - **Next.js**: React framework for building server-side rendered and statically generated applications.
