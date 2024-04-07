@@ -128,7 +128,7 @@ export default function TextGeneratorPage() {
           <TextBox label="Your Text" text={text} setText={setText} />
           <div className="relative text-center md:hidden">
             <button
-              onClick={text.trim().length === 0 ? modalState : show}
+              onClick={text.toString().trim().length === 0 ? modalState : show}
               type="button"
               className="font-medium w-1/2 text-white bg-green-700 hover:bg-green-800 focus:outline-none active:ring-2 active:ring-green-700 rounded-full text-sm px-5 py-2.5 text-center "
             >
@@ -160,7 +160,7 @@ export default function TextGeneratorPage() {
           <button
             type="button"
             className="font-medium w-1/2 text-white bg-green-700 hover:bg-green-800 focus:outline-none active:ring-2 active:ring-green-700 rounded-full text-sm px-5 py-2.5 text-center"
-            onClick={text.trim().length === 0 ? modalState : show}
+            onClick={text.toString().trim().length === 0 ? modalState : show}
           >
             Generate Text
           </button>

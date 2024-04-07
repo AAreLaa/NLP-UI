@@ -23,7 +23,7 @@ export default function TextBox(props: Readonly<TextBoxProps>) {
             setText(data[1][0][1][0] + " ");
           })
         )
-        .catch((err) => setText(err));
+        .catch((err) => alert("Transliteration has failed due to network issue."));
     }
   };
 
