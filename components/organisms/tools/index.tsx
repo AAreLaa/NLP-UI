@@ -12,7 +12,7 @@ export default function Tools() {
 
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
-            <div className="inline-flex text-sm font-semibold py-1 px-3 m-2 text-green-800 bg-green-300 rounded-full mb-4">Unlocking Language's Power, Seamlessly.</div>
+            <div className="inline-flex text-sm font-semibold py-1 px-3 m-2 text-green-800 bg-green-300 rounded-full mb-4">Unlocking Language&apos;s Power, Seamlessly.</div>
             <h1 className="h2 mb-4">One product, Multiple tools</h1>
             <p className="text-lg text-gray-400">Unlock the potential of text generation and spelling correction models for seamless content expansion, optimization, and refinement, ensuring ideas shine flawlessly and mistakes vanish instantly.</p>
           </div>
