@@ -54,7 +54,7 @@ export default function Description() {
             >
               Powerful Nepali Language Processing (NLP) Web-Platform, a valuable
               tool for both text generation and spelling correction for Nepali
-              Language that seamlessly completes sentences from where you've left off and also not only corrects spelling errors but also goes
+              Language that seamlessly completes sentences from where you&apos;ve left off and also not only corrects spelling errors but also goes
               beyond traditional spellcheckers.
             </p>
             <div className="max-w-xs mx-auto sm:max-w-none sm:flex sm:justify-center">
